@@ -5,6 +5,6 @@ document.querySelectorAll(".MapSelect").forEach(item => {
 });
 
 function changeMap(mapName) {
-    var currMap = document.getElementById("map")
-    currMap.src = "assets/" + mapName + ".svg" 
+    document.getElementById("map").src = "assets/maps/" + mapName + ".svg" 
 }
+    
