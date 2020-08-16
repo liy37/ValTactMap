@@ -8,12 +8,15 @@
     
 </head>
 <body>
-    <li id="ascent" onmousedown="changeMap(this.id)">Ascent</li>
-    <li id="bind" onmousedown="changeMap(this.id)">Bind</li>
-    <li id="haven" onmousedown="changeMap(this.id)">Haven</li>
-    <li id="split" onmousedown="changeMap(this.id)">Split</li>
-
-    <img id="map" src="assets/haven.svg" alt="">
+    <div class="disable-select" id="MapContainer">
+        <ul class="MapSelect" id="ascent">Ascent</ul>
+        <ul class="MapSelect" id="bind">Bind</ul>
+        <ul class="MapSelect" id="haven">Haven</ul>
+        <ul class="MapSelect" id="split">Split</ul>
+    </div>
+    <div>
+        <img id="map" src="/assets/haven.svg" alt="">
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
